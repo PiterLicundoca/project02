@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+form{
+    padding-top: 3rem;
+}
+
+div{
+    margin: 0rem 0rem 1rem 3rem ;
+}
+
+input::placeholder{
+    padding-left: .2rem;
+    opacity: .3;
+    background-color: lightblue;
+    color: black;
+    text-transform: capitalize;
+    transition: 5s;
+  
+}
+input{
+    outline: none;
+    border:.1rem solid rgb(228, 232, 234);
+    height: 1.5rem;
+   
+
+}
+.enviar{
+    max-width: 10.5rem;
+ 
+    
+}
+button{
+    width:100%;
+    text-transform: capitalize;
+    height: 1.5rem;
+    cursor: pointer;
+}
+select{
+    width: 10.5rem;
+    background-color: lightblue;
+    opacity: .3;
+    color: black;
+}

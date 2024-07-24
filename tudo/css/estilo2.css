@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* 
+body{
+    background-color: blue;
+} */
+
+
+.fundo{
+
+    display: flex;
+}
+
+.sobre1{
+    display: flex;
+    width: 40%;
+    height: 100vh;
+    background-color: rgb(4, 125, 4);
+    align-items: center;
+    justify-content: end;
+}
+
+.sobre1 .sob{
+   /*  display: flex; */
+    height: 80%;
+    width: 65%;
+    box-shadow: 0rem 0rem 2rem 1rem rgb(161, 160, 158);
+    background-color: green;
+    border-radius: .5rem;
+   /*  align-items: center;
+    justify-content: center; */
+
+}
+
+.sob .divimg img{
+width: 5rem;
+height: 5rem;
+margin-top: 40%;
+margin-left: 35%;
+}
+
+.sob h1{
+    margin-left: 20%;
+    margin-top: 1rem;
+    text-transform: capitalize;
+   
+}
+
+.sobre2 .sob2{
+   /*  display: flex; */
+    height: 77%;
+    width: 75%;
+    box-shadow: 2rem 0rem 6rem .5rem  rgb(161, 160, 158);
+    background-color: #fff;
+    border-radius: .5rem;
+}
+
+.sobre2{
+     display: flex;
+     width: 60%;
+     height: 100vh;
+     align-items: center;
+     background-color: #fff;
+}
+
+
+.sob2 a{
+    
+   margin-left: 31rem;
+}
+
+.sob2{
+    padding-top: 1rem;
+}
+
+.sob2 .form-grup{
+    margin-top: 9rem;
+    margin-left: 7rem;
+}
+
+.sob2 .form-grup div{
+    margin-bottom: 2rem;
+}
+
+.sob2 .form-grup div input{
+    outline: none;
+    border: .1rem solid whitesmoke;
+    height: 1.7rem;
+    width: 12rem;
+    border-radius: 1rem;
+    align-items: center;
+}
+
+.sob2 .fa{
+ font-size: 1.3rem;
+ color: black;
+ font-weight: bolder;
+
+}
+
+.botao{
+width: 12rem;
+height: 2rem;
+border: none;
+font-size: 1rem;
+font-weight: bolder;
+}
+
+.botao:hover{
+    background-color: rgba(0,255,0, 0.2);
+}
+
+.sob2 .form-grup h1{
+    text-transform: capitalize;
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+   
+}
+
+.form-grup a{
+   
+  margin: 0;
+  text-decoration: none;
+}
+.form-grup p{
+    margin-top: .5rem;
+}
+
+
+

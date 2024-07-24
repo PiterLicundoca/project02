@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Variaveis */
+
+:root{
+    --bgheader-cor: rgb(20, 62, 62);
+    --corBraca: #fff;
+    --tamanhoIcon:2.5rem;
+    --cor:darkkhaki;
+    --corVermelha:red;
+    --corVerde:rgb(131, 171, 131);
+    --corfundo: rgb(227, 245, 244);
+}
+/* Header, barra de navegação */
+.header{
+    display: flex;
+    justify-content: space-between;
+   background-color: var(--bgheader-cor);
+   padding: 1rem;
+   align-items: center;
+}
+
+/* Logo */
+
+.logo img{
+    width: 2rem;
+    height: 2rem;
+}
+
+/* Nave */
+
+.nave{
+    margin-right: 1rem;
+    display: flex;
+}
+
+
+section nav ul{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+section nav ul li{
+  
+     list-style-type: none;
+}
+
+section nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--corBraca);
+}
+
+/* Botão entrar */
+#entrar{
+    display: flex;
+    height: 2rem;
+    background-color: var(--cor);
+    align-items: center;
+    border-radius: .1rem;
+    width: 6rem;
+   justify-content: center;
+}
+
+/* Parte do hore */
+
+main .corpo1{
+   
+    height: 60lvh;
+    width: 100%;
+    background-color: var(--bgheader-cor);
+    background-color: transparent;
+    background-image: url(../imagem/mainbanner.png);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+   display: flex;
+   align-items: center;
+    
+}
+
+ .h1, h4{
+ color: var(--corBraca);
+  text-align: center;
+ align-items: center;
+
+}
+
+/* Corpo 2 */
+.corpo2{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    padding: 2rem;
+
+}
+
+
+.corpo2, h5, .fa, p {
+text-align: center;
+
+}
+
+
+.corpo2, .fa, h5{
+    margin-bottom: 1rem;
+}
+
+.corpo2  .fa{
+   font-size: var(--tamanhoIcon);
+}
+
+.corpo2 .div2 .fa{
+    color: var(--corVermelha);
+}
+
+.corpo2 .div3 .fa{
+    color: var(--cor);
+}
+
+.corpo2 .div1 .fa{
+    color: var(--corVerde);
+}
+
+/* Corpo 3 */
+
+.corpo3 .div1 h1{
+    text-align: center;
+    font-size: var(--tamanhoIcon);
+}
+
+.corpo31{
+    display: flex;
+    gap: .5rem;
+    justify-content: center;
+    margin-bottom: 3rem;
+    position: relative;
+    
+
+}
+
+.corpo31 div{
+    margin-top: 7rem;
+    height: 27rem;
+    width: 18rem;
+    background-color: var(--corfundo);
+    
+}
+
+.corpo31 .dive1 .circulo1{
+     height: 7rem;
+     width: 7rem;
+     border-radius: 50%;
+     background-color: var(--cor);
+     position: absolute;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: -4.5rem;
+     margin-left: 6rem;
+     
+}
+
+
+ .corpo31 .divtop{
+    height: 5rem;
+    width: 18rem;
+    background-color: black;
+    margin-top: 0rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.corpo31 .divfooter{
+    height: 5rem;
+    width: 18rem;
+    background-color: var(--cor);
+    display: flex;
+    position: absolute;
+    bottom: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+.corpo31 .dive1{
+    overflow:hidden;
+    
+}
+
+.corpo31 .dive1 p{
+    margin-top: 2rem;
+}
+
+.corpo31 .divfooter a{
+   text-decoration: none;
+   color: #fff;
+   font-weight: bolder;
+}
+/* CORPO SECTION4 */
+
+.corpo4{
+    background-color: var(--bgheader-cor);
+    padding-top: 2.5rem;
+    height: 13rem;
+}
+.corpo4, h1,p, input, button{
+        text-align: center;
+       
+}
+.corpo4 h1{
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.corpo4 p{
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+
+input{
+    background-color: #fff;
+    padding: .3rem;
+    width: 20rem;
+    outline: none;
+    border-radius: .3rem;
+    border: .5rem solid #fff;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+button{
+    
+    background-color: var(--cor);
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: .4rem;
+    border: none;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+/* CORPO 5 */
+
+.corpo5{
+    margin-top: 2rem;
+  
+}
+
+.corpo5 h2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.form input{
+    margin-left: 3rem;
+    
+    border: .1rem solid rgb(247, 247, 245);
+    width: 10rem;
+    margin-top: 2rem;
+   margin-left: 2rem;
+    height: 1.5rem;
+    color: black;
+
+}
+form{
+    text-align: center;
+}
+
+.form textarea{
+    width: 25rem;
+    padding: 1rem;
+}
+
+form div button{
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.efeitoScroll, .efeitoScroll1, .efeitoScroll2, .h1, .h4{
+    visibility: hidden;
+}
+
+
